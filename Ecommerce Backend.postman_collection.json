@@ -1,0 +1,3099 @@
+{
+  "info": {
+    "_postman_id": "7b86b290-a211-4624-8fe3-7a5318d5e51f",
+    "name": "Ecommerce Backend",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56421454",
+    "_collection_link": "https://go.postman.co/collection/56421454-7b86b290-a211-4624-8fe3-7a5318d5e51f?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"paymentMethod\": \"cash\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"6a4d792181c650009415cba9\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"6a4d792181c650009415cba9\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"حط هنا Product ID\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"paymentMethod\": \"cash\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/orders",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "orders"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"quantity\": 5\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"quantity\": 5\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items/6a4d792181c650009415cba9",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items",
+            "6a4d792181c650009415cba9"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PATCH",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"quantity\": 5\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items/6a4d792181c650009415cba9",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items",
+            "6a4d792181c650009415cba9"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"6a4d792181c650009415cba9\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"product\": \"6a4d792181c650009415cba9\",\r\n    \"quantity\": 2\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/cart/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "cart",
+            "items"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?=iphone",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "",
+              "value": "iphone",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=Iphone-16-pro",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "Iphone-16-pro",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=Iphone",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "Iphone",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=IPhone",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "IPhone",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=iphone",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "iphone",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=6a4bb4c54b76201825d16ec8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "6a4bb4c54b76201825d16ec8",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=6a4bb4c54b76201825d16ec8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "6a4bb4c54b76201825d16ec8",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?category=6a4bb4c54b76201825d16ec8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "category",
+              "value": "6a4bb4c54b76201825d16ec8",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?inStock=true",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "inStock",
+              "value": "true",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?maxPrice=30000",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "maxPrice",
+              "value": "30000",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?minPrice=60000",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "minPrice",
+              "value": "60000",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=MacBook",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "MacBook",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "GET http://localhost:3000/api/products?search=MacBook",
+          "protocol": "GET http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "MacBook",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products?search=Samsung",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ],
+          "query": [
+            {
+              "key": "search",
+              "value": "Samsung",
+              "disabled": false
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Gaming Laptops\",\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/subcategories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "subcategories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Gaming Laptops\",\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/subcategories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "subcategories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Gaming Laptops\",\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/subcategories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "subcategories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Samsung\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/brands/6a4ec09c392d88356226187e",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "brands",
+            "6a4ec09c392d88356226187e"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Samsung\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/brands/6a4ec09c392d88356226187e",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "brands",
+            "6a4ec09c392d88356226187e"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Apple\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/brands/6a4ec09c392d88356226187e",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "brands",
+            "6a4ec09c392d88356226187e"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Apple\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/brands/6a4ec09c392d88356226187e",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "brands",
+            "6a4ec09c392d88356226187e"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Apple\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/brands",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "brands"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"MacBook Pro M5\",\r\n    \"description\": \"Apple MacBook Pro with M5 chip and high performance for developers.\",\r\n    \"quantity\": 15,\r\n    \"price\": 120000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 1000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "123"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 1000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "123"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 50000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/123",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "123"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 50000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 50000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4cf28086877640e101efcd",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4cf28086877640e101efcd"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 50000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4cf28086877640e101efcd",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4cf28086877640e101efcd"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"price\": 50000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4cf28086877640e101efcd",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4cf28086877640e101efcd"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4cf28086877640e101efcd",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4cf28086877640e101efcd"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4c13072b294f802bda94a2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4c13072b294f802bda94a2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4cf28086877640e101efcd",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4cf28086877640e101efcd"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products/6a4c13072b294f802bda94a2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products",
+            "6a4c13072b294f802bda94a2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "GET http://localhost:3000/api/products",
+          "protocol": "GET http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"Samsung S26\",\r\n    \"description\": \"Samsung flagship phone with AI features and excellent camera quality.\",\r\n    \"quantity\": 30,\r\n    \"price\": 55000,\r\n    \"category\": \"حط هنا ID Category صحيح\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"123\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"555\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"555\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"PlayStation 5\",\r\n    \"description\": \"Sony PlayStation 5 Slim Digital Edition with one controller.\",\r\n    \"quantity\": 50,\r\n    \"price\": 28000,\r\n    \"category\": \"6a4bb4c54b76201825d16ec8\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"iPhone 16 Pro\",\r\n    \"description\": \"This is the latest Apple flagship phone with powerful performance.\",\r\n    \"quantity\": 100,\r\n    \"price\": 65000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"\",\r\n    \"description\": \"abc\",\r\n    \"quantity\": \"abc\",\r\n    \"price\": \"\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"iPhone 16 Pro\",\r\n    \"description\": \"Apple flagship phone\",\r\n    \"quantity\": 100,\r\n    \"price\": 65000\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Electronics\",\r\n    \"description\": \"Anything\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Electronics\",\r\n    \"description\": \"Anything\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Electronics\",\r\n    \"description\": \"Anything\"\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Smart Phones\",\r\n    \"description\": \"Phones\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"as\",\r\n    \"description\": \"Phones\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"\",\r\n    \"description\": \"Phones\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"\",\r\n    \"description\": \"Phones\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Gaming Laptops\",\r\n    \"description\": \"Gaming laptops only\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bb4c54b76201825d16ec8",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bb4c54b76201825d16ec8"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Laptops\",\r\n    \"description\": \"All laptops\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Laptops\",\r\n  \"description\": \"All laptops\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories/6a4bad9d6a1fc6a39f45640b",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories",
+            "6a4bad9d6a1fc6a39f45640b"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status code is 200\", function () {",
+              "    pm.response.to.have.status(200);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"name\": \"Electronics\",\r\n  \"description\": \"Electronic devices\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "text"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/categories",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "categories"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
